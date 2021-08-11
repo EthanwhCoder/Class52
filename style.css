@@ -1,0 +1,71 @@
+h1{
+    color:blue;
+    margin-left: 50px;
+    }  
+ /*  *{
+    border: solid;
+    }   
+
+*/
+.header{
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p, h2{
+    text-align: center;
+}
+
+body{
+    background-color: #00ff00
+}
+
+/*
+how to write a grey color in Hex
+#6numbers
+256/2 = 128 /16 = qoutient-8 and remainder-0
+#80
+
+
+*/
+a:link{
+color:red;
+}
+a:visited{
+    color:blue;
+}
+.menu a{
+    margin-left: 30px;
+}
+
+.item{
+position: relative;
+}
+
+.item p{
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity:0;
+
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
